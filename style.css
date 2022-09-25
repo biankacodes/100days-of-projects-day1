@@ -1,0 +1,144 @@
+:after, :before { box-sizing: border-box; }
+body {font-family: 'Arial', sans-serif;}
+
+.logo {
+    max-height: 40px;
+}
+
+.image {
+    max-height: 100px;
+    margin: 20px;
+}
+
+.screen {
+    height: 350px;
+    background-color: #F2A2C0;
+    margin: 0;
+}
+
+body {
+    margin: 0;
+}
+
+h1 {
+    margin: 0;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 80px;
+}
+
+.search-box {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    height: 50px;
+    width: 500px;
+    margin-top: 30px;
+    padding-left: 15px;
+    border-radius: 5px;
+    box-shadow: 0 10px 10px 1px #407BFF1F;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    background-color: #3F3D73;
+    font-size: 20px;
+    margin-top: 0;
+    padding: 15px 40px;
+    margin-bottom: 0;
+}
+
+.prvni-menu a:hover {
+    border-bottom: 2px solid white;
+    padding-bottom: 3px;
+}
+
+.title, .help, .submit, .sign-in {
+        flex-grow: 1;
+        padding: 10px 10px;
+}
+
+.title {
+    font-weight: bold;
+}
+
+.submit {
+    box-sizing: content-box;
+    border: 1px solid white;
+    margin-left: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.sign-in {
+    box-sizing: content-box;
+    background-color: #BF88B0;
+    margin-left: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.sign-in:hover {
+    background-color: white;
+}
+
+.sign-in a:hover {
+    color: black;
+    background-color: white;
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+  }
+
+.prvni-menu, .druhe-menu {
+    display: flex;
+    align-items: center;
+}
+
+.boxy {
+    display: flex;
+    justify-content: center;
+    margin: 60px;
+}
+
+.box {
+    display: flex;
+    max-width: 400px;
+}
+
+@media screen and (max-width: 750px) {
+	.boxy {
+		display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 0;
+	}
+
+    .box { margin: 20px;
+        max-width: 600px;
+    }
+}
+
+.box a {
+    text-decoration: none;
+    color:#BF88B0;
+}
+
+.box a:hover {
+    text-decoration: none;
+    color:#3F3D73;
+}
+
+
+.footer {
+    text-align: center;
+    background-color: #3F3D73;
+    color: white;
+    padding: 2px;
+}
